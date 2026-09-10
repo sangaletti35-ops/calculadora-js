@@ -8,17 +8,17 @@ Uma calculadora simples e funcional, construída com **HTML, CSS e JavaScript pu
 
 ## 📸 Demonstração
 
-![Tela inicial da calculadora] 
-<img width="585" height="581" alt="Captura de tela 2026-09-10 084919" src="https://github.com/user-attachments/assets/d1303361-5c26-41d0-8026-b89e419aed80" />
+### Tela inicial da calculadora
+![Tela inicial da calculadora](https://github.com/user-attachments/assets/d1303361-5c26-41d0-8026-b89e419aed80)
 
-![Realizando uma soma]
-<img width="374" height="521" alt="Captura de tela 2026-09-10 085132" src="https://github.com/user-attachments/assets/88cd9c32-71ff-4544-bb1c-25280a7d6dfc" />
+### Realizando uma soma
+![Realizando uma soma](https://github.com/user-attachments/assets/88cd9c32-71ff-4544-bb1c-25280a7d6dfc)
 
-![Operação com números decimais]
-<img width="386" height="530" alt="Captura de tela 2026-09-10 085309" src="https://github.com/user-attachments/assets/99608063-39a5-42ee-9c04-391f7f4fb956" />
+### Operação com números decimais
+![Operação com números decimais](https://github.com/user-attachments/assets/99608063-39a5-42ee-9c04-391f7f4fb956)
 
-![Mensagem de erro ao inserir uma expressão inválida]
-<img width="394" height="523" alt="Captura de tela 2026-09-10 085429" src="https://github.com/user-attachments/assets/64d547f1-4771-44af-a845-5c84996664f4" />
+### Mensagem de erro ao inserir uma expressão inválida
+![Mensagem de erro ao inserir uma expressão inválida](https://github.com/user-attachments/assets/64d547f1-4771-44af-a845-5c84996664f4)
 
 ## ⚙️ Funcionalidades
 
