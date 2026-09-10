@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <!-- Configurações de metadados e dos recursos da página -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Título exibido na aba do navegador -->
+        <title>Calculadora Code Start</title>
+        <!-- Folha de estilos externa (CSS) -->
+        <link rel="stylesheet" href="styless.css">
+    </head>
+     <!-- Body: container principal da calculadora -->
+    <body>
+       <!-- Classe calculator para o cálculo -->
+        <div class="calculator"> 
+         <!-- Classe Display para exibir os números e o resultado dos cálculos -->
+        <div class="display" id="display"></div>
+        <!-- Classe painel de Botões: Grade com números e operações -->
+            <div class="buttons">
+                <!-- Linha 1: Funções especiais e divisão -->
+                <button class="button light-gray"onclick= "cleanDisplay()">c</button>
+                <button class="button light-gray"onclick="oppendOperator ('%')">%</button>
+                <button class="button light-gray" onclick="oppendOperator ('.')">.</button>
+                <button class="button orange"onclick="oppendOperator ('/')">/</button>
+                 <!-- Linha 2: Números 7-9 e multiplicação -->
+                <button class="button dark-gray"onclick="appendNumber ('7')">7</button>
+                <button class="button dark-gray"onclick="appendNumber ('8')">8</button>
+                <button class="button dark-gray"onclick="appendNumber ('9')">9</button>
+                <button class="button orange"onclick="oppendOperator ('*')">*</button>
+                <!-- Linha 3: Números 4-6 e subtração -->
+                <button class="button dark-gray"onclick="appendNumber ('4')">4</button>
+                <button class="button dark-gray"onclick="appendNumber ('5')">5</button>
+                <button class="button dark-gray"onclick="appendNumber ('6')">6</button>
+                <button class="button orange"onclick="oppendOperator ('-')">-</button>
+                 <!-- Linha 4: Números 1-3 e adição -->
+                <button class="button dark-gray"onclick="appendNumber ('1')">1</button>
+                <button class="button dark-gray"onclick="appendNumber ('2')">2</button>
+                <button class="button dark-gray"onclick="appendNumber ('3')">3</button>
+                <button class="button orange"onclick="oppendOperator ('+')">+</button>
+                <!-- Linha 5: Zero e igual -->
+                <button class="button dark-gray wide "onclick="appendNumber ('0')">0</button>
+                <button class="button orange" onclick="calculate ()">=</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
